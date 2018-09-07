@@ -1,6 +1,16 @@
 # angular6-with-outlet
-
+https://github.com/panin1990/angular6-with-outlet.git
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
+## Get started
+
+install node, install angular-cli, and then: 
+
+<pre>#git clone ...
+#npm install
+#ng serve --open
+...
+profit</pre>
 
 ## This build includes
 

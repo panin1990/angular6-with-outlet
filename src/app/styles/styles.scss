@@ -1,7 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 @import "fontFace";
 @import "helpers";
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: goodTime, Consolas, Courier, sans-serif;
+  color: #9bface;
+  //font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+  background-color: #170522;
+  color: #eeeeee;
 }

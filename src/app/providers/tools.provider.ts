@@ -14,7 +14,7 @@ export class ToolsProvider {
     if ((url.indexOf('http://') !== -1) || (url.indexOf('https://') !== -1)) {
       window.location.href = url;
     } else {
-      this.router.navigateByUrl(url);
+      return this.router.navigateByUrl(url);
     }
   }
 }

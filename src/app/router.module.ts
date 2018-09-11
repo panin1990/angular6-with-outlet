@@ -10,7 +10,7 @@ export let routes: Routes = [
   // { path: '', pathMatch: 'full', redirectTo: 'home' },
   { path: '', component: SiteComponent,
     children: [
-      { path: 'home', component: HomePageComponent },
+      { path: '', component: HomePageComponent },
       { path: 'test', component: TestPageComponent }
     ]},
   { path: 'adminPanel', component: AdminPanelHomeComponent },

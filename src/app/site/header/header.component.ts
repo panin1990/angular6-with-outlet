@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {ToolsProvider} from '../../providers/tools.provider';
 
 @Component({
   selector: 'header-component',

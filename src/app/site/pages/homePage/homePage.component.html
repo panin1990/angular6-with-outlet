@@ -4,17 +4,26 @@
         <div class="col-12 mt-5 mb-5 text-center">
             <h2 class="font-weight-bold">My test projects:</h2>
         </div>
-        <div class="col-12 col-md-4 col-xl-3">
-            <mat-card [style.backgroundColor]="'#fab3fe'"></mat-card>
+        <div class="col-12 col-md-4 col-xl-3 mb-5">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title class="text-dark font-weight-bold">Swagger</mat-card-title>
+                    <mat-card-subtitle>This frontend will be work in API (in progress)</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="https://habrastorage.org/webt/rx/oo/dk/rxoodkkmw-pkzgffxidjs-f55ag.png" alt="SWAGGER IMAGE">
+                <mat-card-actions class="d-flex justify-content-center pb-3">
+                    <button mat-flat-button color="primary" (click)="toolsProvider.goTo('http://api.mydev.moscow/api/documentation')">Go to swagger</button>
+                </mat-card-actions>
+            </mat-card>
         </div>
         <div class="col-12 col-md-4 col-xl-3">
-            <mat-card [style.backgroundColor]="'#fab3fe'"></mat-card>
+            <mat-card></mat-card>
         </div>
         <div class="col-12 col-md-4 col-xl-3">
-            <mat-card [style.backgroundColor]="'#fab3fe'"></mat-card>
+            <mat-card></mat-card>
         </div>
         <div class="col-12 col-md-4 col-xl-3">
-            <mat-card [style.backgroundColor]="'#fab3fe'"></mat-card>
+            <mat-card></mat-card>
         </div>
     </div>
 </div>

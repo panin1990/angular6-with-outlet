@@ -12,7 +12,7 @@ import {AdminPanelHomeComponent} from './adminPanel/adminPanelHome.component';
 import {HeaderComponent} from './site/header/header.component';
 import {ToolsProvider} from './providers/tools.provider';
 import {NotFoundRouteComponent} from './site/pages/notFoundRoute.component';
-import {MatCardModule} from '@angular/material';
+import {MatButtonModule, MatCardModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import {MatCardModule} from '@angular/material';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [SharedDataProvider, ToolsProvider],
   bootstrap: [AppComponent]

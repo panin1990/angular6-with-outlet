@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ToolsProvider} from '../../../providers/tools.provider';
 
 @Component({
   selector: 'homePage-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./homePage.component.scss']
 })
 export class HomePageComponent {
-
+  constructor(
+    public toolsProvider: ToolsProvider
+  ) {}
 }
